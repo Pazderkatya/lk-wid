@@ -153,7 +153,7 @@ header {
 }
 
 .search {
-  background: linear-gradient(57.53deg, rgb(144, 187, 239), rgb(216, 221, 226));
+  background: linear-gradient(57.53deg, rgb(129, 145, 164), rgb(216, 221, 226));
   max-width: 200px;
   width: 100%;
   gap: 10px;
@@ -209,14 +209,14 @@ table {
 
 td {
   text-align: left;
-  border: 1px solid #000;
+  padding: 5px 12px;
 }
 
 th {
+  padding: 5px 12px;
   text-align: left;
   text-transform: uppercase;
   font-family: "bion-bold";
-  border: 1px solid #000;
   background: linear-gradient(116.9deg, rgba(243, 248, 247, 0.65) 16.43%, rgba(234, 234, 241, 0.66) 98.81%), radial-gradient(60.81% 93.32% at 87% 0%, rgba(233, 227, 214, 0.345) 0%, rgba(229, 239, 247, 0) 100%);
 }
 
@@ -225,6 +225,10 @@ th {
   padding: 4px 6px;
   border: 2px solid #27b462;
   cursor: pointer;
+}
+
+.gray {
+  background-color: rgba(108, 108, 111, 0.2);
 }
 
 .connect {
