@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/img/logo-menu.png" alt="Логотип">
+                <h2 class="logo__name">intoCRM</h1>
+            </div>
+            <div class="menu">
+                <nav class="menu__nav">
+                    <a href="/users.html">Пользователи</a>
+                    <a href="/widgets.html">Виджеты</a>
+                </nav>
+            </div>
+            <div class="exit">
+                <button>выход</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="containern">
+            <div class="expiring">
+                <h2 class="expiring__title">Истекающие виджеты</h2>
+            </div>
+            <table>
+                <tr>
+                    <th>Домен</th>
+                    <th>Название виджета</th>
+                    <th>Активность</th>
+                    <th>Дата окончания</th>
+                    <th>Статус</th>
+                </tr>
+                <tr>
+                    <td>pazder</td>
+                    <td>Приоритет задач</td>
+                    <td>Да</td>
+                    <td>01.12.2024</td>
+                    <td>Активен
+                        <button class="exp-button">Продлить</button>
+                    </td>
+                </tr>
+            </table>
+            <h1 class="title-wd">Пользователи</h1>
+            <div class="right">
+                <div class="search">
+                    <input class="search__input" type="text" name="search" placeholder="Поиск">
+                    <img src="/img/search.png" alt="Поиск">
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <th>Домен</th>
+                    <th>Кол-во подключенных виджетов</th>
+                    <th>Ближайшая дата окончания виджета</th>
+                    <th>Кол-во пользователей</th>
+                </tr>
+                <tr>
+                    <td>pazder</td>
+                    <td>4</td>
+                    <td>01.12.2024<br>
+                        <button class="change">Изменить/продлить</button>
+                    </td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
